@@ -59,7 +59,6 @@
     "memory": {
         "format": "mem {percentage}%",
         "interval": 2,
-
         "states": {
             "critical": 80
         }

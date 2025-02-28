@@ -44,11 +44,13 @@ set -g theme_newline_cursor yes
 set -g theme_newline_prompt '$ '
 
 ###### ALIAS ######
-alias music=musikcube
-alias pac="sudo pacman"
-alias btop=bpytop
-alias rng=ranger
-alias ff=fastfetch
+alias a-music=musikcube
+alias a-pac="sudo pacman"
+alias a-btop=bpytop
+alias a-rng=ranger
+alias a-ff=fastfetch
+alias a-cdc="cd /home/kena/dotfiles/.config/"
+alias a-nvimc="nvim /home/kena/dotfiles/.config/"
 
 ###### ENV #####
 export EDITOR=nvim
