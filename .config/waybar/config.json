@@ -39,7 +39,7 @@
     },
 
     "clock": {
-        "format": "{:%I:%M %p - %a, %d %b %Y}",
+        "format": "{:%H:%M - %A, %d %b}",
         "tooltip": false
     },
 
