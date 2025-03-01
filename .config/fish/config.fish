@@ -51,6 +51,7 @@ alias a-rng=ranger
 alias a-ff=fastfetch
 alias a-cdc="cd /home/kena/dotfiles/.config/"
 alias a-nvimc="nvim /home/kena/dotfiles/.config/"
+alias a-swap="./scripts/toggleaudio.sh"
 
 ###### ENV #####
 export EDITOR=nvim
