@@ -52,6 +52,7 @@ alias a-ff=fastfetch
 alias a-cdc="cd /home/kena/dotfiles/.config/"
 alias a-nvimc="nvim /home/kena/dotfiles/.config/"
 alias a-swap="./scripts/toggleaudio.sh"
+alias a-git-commit="git add --all && git commit -m 'auto commit' && git push -u origin main"
 
 ###### ENV #####
 export EDITOR=nvim
