@@ -42,6 +42,7 @@ set -g fish_prompt_pwd_dir_length 0
 set -g theme_project_dir_length 1
 set -g theme_newline_cursor yes
 set -g theme_newline_prompt '$ '
+set -g fish_greeting
 
 ###### ALIAS ######
 alias a-music=musikcube
@@ -53,7 +54,10 @@ alias a-cdc="cd /home/kena/dotfiles/.config/"
 alias a-nvimc="nvim /home/kena/dotfiles/.config/"
 alias a-swap="./scripts/toggleaudio.sh"
 alias a-git-commit="git add --all && git commit -m 'auto commit' && git push -u origin main"
+alias yay="paru"
 
 ###### ENV #####
 export EDITOR=nvim
 export VISUAL=nvim
+
+starship init fish | source

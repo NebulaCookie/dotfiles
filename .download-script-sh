@@ -1,0 +1,15 @@
+#! /usr/bin/bash
+
+# updates system
+sudo pacman -Syu --noconfirm
+
+# Download and set fish as default user shell
+sudo pacman -S --noconfirm
+
+# installs programs
+sudo pacman -S --noconfirm hyprland
+sudo pacman -S --noconfirm waybar
+sudo pacman -S --noconfirm neovim
+sudo pacman -S --noconfirm bpytop
+sudo pacman -S --noconfirm stow
+
